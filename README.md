@@ -2,6 +2,12 @@
 
 Heatmap Charts for Apache Zeppelin using highcharts.js
 
+## Compatibility
+
+| Chart Version | Zeppelin Version |
+| :---: | :---: |
+| ALL | 0.7.0+ |
+
 ## Install
 
 ```shell
