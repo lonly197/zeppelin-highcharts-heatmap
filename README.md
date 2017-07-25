@@ -30,7 +30,7 @@ And enable visualization from Helium menu.
 
 ## Screenshots 
 
-![](https://raw.githubusercontent.com/1ambda/zeppelin-highcharts-heatmap/master/screenshots/heatmap-usage.gif)
+![](https://raw.githubusercontent.com/lonly197/zeppelin-highcharts-heatmap/master/screenshots/heatmap-usage.gif)
 
 ## Example Paragraph for Testing
 
