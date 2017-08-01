@@ -72,7 +72,7 @@ export function extractCategories(xAxisIdx, yAxisIdx, rows) {
     const xAxisCategories = {};
     const yAxisCategories = {};
 
-    for(let i = 0; i < rows.length; i++) {
+    for (let i = 0; i < rows.length; i++) {
         const row = rows[i];
 
         const xAxisCategory = row[xAxisIdx]
@@ -106,8 +106,8 @@ export function extractCategories(xAxisIdx, yAxisIdx, rows) {
  * See also: http://jsfiddle.net/gh/get/jquery/3.1.1/highslide-software/highcharts.com/tree/master/samples/highcharts/demo/heatmap/
  */
 export function createDataStructure(xAxisIndex, xAxisCategories,
-                                    yAxisIndex, yAxisCategories,
-                                    colorAxisIndex, rows) {
+    yAxisIndex, yAxisCategories,
+    colorAxisIndex, rows) {
     const data = []
     for (let i = 0; i < rows.length; i++) {
         const row = rows[i];
@@ -153,6 +153,10 @@ export function createHighchartOption(xAxisCategories, yAxisCategories, data) {
             verticalAlign: 'top',
             y: 25,
             symbolHeight: 280,
+        },
+
+        credits: {
+            enabled: false
         },
 
         tooltip: {
